@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tes SKD</title>
+        <link href="styles.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <script src ="main.js"></script>
+    </head>
+
+    <body>
+        <br>
+        <h1>Seleksi Kompetensi Dasar Kejiwaan</h1>
+        <form id ="kuis" name="kuis">
+
+        <p>Makhluk hidup pemakan teman disebut?</p>
+        <input id="textbox" type ="text" name="question1">
+       
+        <p>Aldi dan Febi dekat selama 3 bulan, lalu si Febi ditikung teman Aldi. Sebutan apa yang benar buat Aldi?</p>
+        <input type="radio" id="mc" name="question2" value="pemberi harapan palsu">Pemberi harapan palsu<br>
+        <input type="radio" id="mc" name="question2" value="mantan teman">Mantan Teman<br>
+
+        <p>Gerakan yang terlihat lebih lambat dari biasanya disebut...</p>
+        <input type="radio" id="mc" name="question3" value="Slow Motion">Slow Motion<br>
+        <input type="radio" id="mc" name="question3" value="Karena ku slow">Karena ku slow<br>
+        <input type="radio" id="mc" name="question3" value="Sungguh slow">Sungguh slow<br>
+        <input type="radio" id="mc" name="question3" value="Tetap slow">Tetap slow<br>
+        <input type="radio" id="mc" name="question3" value="Santai-santai jodoh tak akan kemana">Santai-santai jodoh tak akan kemana<br>
+    
+        <p>Tujuan utama bangsa Portugis datang ke Indonesia adalah...</p>
+        <input type="radio" id="mc" name="question4" value="Menyebarkan agama Katolik">Menyebarkan agama Katolik<br>
+        <input type="radio" id="mc" name="question4" value="Mencari rempah-rempah">Mencari rempah-rempah<br>
+        <input type="radio" id="mc" name="question4" value="Mencari batu akik">Mencari batu akik<br>
+        <input type="radio" id="mc" name="question4" value="Imigrasi">Imigrasi<br>
+        <input type="radio" id="mc" name="question4" value="Jalan-jalan">Jalan-jalan<br>
+        
+        <p>Daya tahan tubuh akan terjaga apabila...</p>
+        <input type="radio" id="mc" name="question5" value="Makan makanan enak">Makan makanan enak<br>
+        <input type="radio" id="mc" name="question5" value="Banyak uang">Banyak uang<br>
+        <input type="radio" id="mc" name="question5" value="Bertemu mantan">Bertemu mantan<br>
+        <input type="radio" id="mc" name="question5" value="Cicilan lunas">Cicilan lunas<br>
+        <input type="radio" id="mc" name="question5" value="Banyak Pacar">Banyak pacar<br>
+        
+        <input id="button" type="button" value="Selesai" onclick="cek();">
+        </form>
+
+        <div id="aksi">
+            <p id="message"></p>
+            <p id="jawaban_benar"></p>
+            <img id="picture">
+        </div>
+    </body>
+</html>
